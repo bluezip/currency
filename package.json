@@ -1,11 +1,11 @@
 {
   "name": "bluezip-currency",
-  "version": "0.0.2",
+  "version": "0.0.",
   "description": "convert currency",
   "main": "app/index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha test/index.js",
-    "preinstall": "./node_modules/.bin/mocha test/index.js"
+    "postinstall": "./node_modules/.bin/mocha test/index.js"
   },
   "keywords": [
     "convert",
