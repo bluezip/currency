@@ -1,0 +1,23 @@
+{
+  "name": "bluezip-currency",
+  "version": "0.0.1",
+  "description": "convert currency",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "mocha test/index.js"
+  },
+  "keywords": [
+    "convert",
+    "currency"
+  ],
+  "author": "bluezip",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.18.0",
+    "request": "^2.47.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.0.1",
+    "should": "^4.3.0"
+  }
+}
