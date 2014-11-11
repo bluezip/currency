@@ -1,6 +1,9 @@
 convert currency
 ===================================
 
+### How to install###
+
+    npm install bluezip/currency
 
 ~~~javascript
 var currency    = require('bluezip-currency');
